@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "proposal": "A",
+    "rank": 1,
+    "status": "ranked",
+    "score": 98.0,
+    "reason": "Passed both mandatory checks; strongest on relevant experience (14 qualifying installs), timeline (12 weeks); weakest on warranty (25-year panel, 10-year workmanship)."
+  },
+  {
+    "proposal": "E",
+    "rank": 2,
+    "status": "ranked",
+    "score": 84.8,
+    "reason": "Passed both mandatory checks; strongest on warranty (25-year panel, 12-year workmanship), team and approach (4/4 team items); weakest on relevant experience (8 qualifying installs)."
+  },
+  {
+    "proposal": "C",
+    "rank": null,
+    "status": "flagged",
+    "score": null,
+    "reason": "Held for a person to check: possible hidden instruction to automated reviewers (Appendix C, page 9), waiting for a reviewer. If a person clears it, it would score 77.1 and rank 3rd."
+  },
+  {
+    "proposal": "D",
+    "rank": null,
+    "status": "flagged",
+    "score": null,
+    "reason": "Held for a person to check: timeline not stated, so the 16-week completion requirement cannot be confirmed. If it gives one, it would score 81.1 (3rd) at 16 weeks, up to 84.8 (2nd) at 12 weeks or less."
+  },
+  {
+    "proposal": "B",
+    "rank": null,
+    "status": "ineligible",
+    "score": null,
+    "reason": "Fails mandatory check: Ontario electrical contractor licence not held by the bidder; not scored."
+  }
+]
