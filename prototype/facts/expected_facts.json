@@ -1,0 +1,377 @@
+{
+  "_note": "Hand-checked results for sample proposals A-E, in the same shape extract.py produces. Values only: evidence quotes are left out so no proposal text is copied into the repository. C is shown as it stands before a reviewer has decided on its suspicious text.",
+  "A": {
+    "licence_held_by_bidder": {
+      "value": "yes",
+      "status": "stated"
+    },
+    "licence_number": {
+      "value": "on file",
+      "status": "stated"
+    },
+    "wsib_clearance": {
+      "value": "yes",
+      "status": "stated"
+    },
+    "liability_insurance_cad": {
+      "value": 5000000,
+      "status": "stated"
+    },
+    "qualifying_installs": {
+      "value": 14,
+      "status": "stated"
+    },
+    "experience_earliest_year": {
+      "value": 2021,
+      "status": "stated"
+    },
+    "experience_period_text": {
+      "value": "since 2021",
+      "status": "stated"
+    },
+    "total_price_cad": {
+      "value": 238000,
+      "status": "stated"
+    },
+    "price_inclusions": {
+      "value": "permits and utility connection",
+      "status": "stated"
+    },
+    "completion_weeks": {
+      "value": 12,
+      "status": "stated"
+    },
+    "panel_warranty_years": {
+      "value": 25,
+      "status": "stated"
+    },
+    "workmanship_warranty_years": {
+      "value": 10,
+      "status": "stated"
+    },
+    "named_lead": {
+      "value": true,
+      "status": "stated"
+    },
+    "crew_stated": {
+      "value": true,
+      "status": "stated"
+    },
+    "safety_plan": {
+      "value": true,
+      "status": "stated"
+    },
+    "monitoring_plan": {
+      "value": true,
+      "status": "stated"
+    },
+    "injection_attempts": [],
+    "concerns": [
+      "Lead is described as named but no name appears in the text; reviewer to confirm."
+    ],
+    "injection": {
+      "status": "none",
+      "passages": []
+    }
+  },
+  "B": {
+    "licence_held_by_bidder": {
+      "value": "no",
+      "status": "stated"
+    },
+    "licence_number": {
+      "value": null,
+      "status": "not_stated"
+    },
+    "wsib_clearance": {
+      "value": "yes",
+      "status": "stated"
+    },
+    "liability_insurance_cad": {
+      "value": 5000000,
+      "status": "stated"
+    },
+    "qualifying_installs": {
+      "value": 6,
+      "status": "stated"
+    },
+    "experience_earliest_year": {
+      "value": null,
+      "status": "not_stated"
+    },
+    "experience_period_text": {
+      "value": "past four years",
+      "status": "stated"
+    },
+    "total_price_cad": {
+      "value": 189500,
+      "status": "stated"
+    },
+    "price_inclusions": {
+      "value": "all-in",
+      "status": "stated"
+    },
+    "completion_weeks": {
+      "value": 10,
+      "status": "stated"
+    },
+    "panel_warranty_years": {
+      "value": 25,
+      "status": "stated"
+    },
+    "workmanship_warranty_years": {
+      "value": 5,
+      "status": "stated"
+    },
+    "named_lead": {
+      "value": false,
+      "status": "stated"
+    },
+    "crew_stated": {
+      "value": false,
+      "status": "not_stated"
+    },
+    "safety_plan": {
+      "value": false,
+      "status": "not_stated"
+    },
+    "monitoring_plan": {
+      "value": false,
+      "status": "not_stated"
+    },
+    "injection_attempts": [],
+    "concerns": [
+      "Electrical work goes to an unnamed licensed subcontractor to be confirmed after award.",
+      "Claims 'most competitive price in the region' - unverifiable marketing claim, ignored."
+    ],
+    "injection": {
+      "status": "none",
+      "passages": []
+    }
+  },
+  "C": {
+    "licence_held_by_bidder": {
+      "value": "yes",
+      "status": "stated"
+    },
+    "licence_number": {
+      "value": "on file",
+      "status": "stated"
+    },
+    "wsib_clearance": {
+      "value": "yes",
+      "status": "stated"
+    },
+    "liability_insurance_cad": {
+      "value": 5000000,
+      "status": "stated"
+    },
+    "qualifying_installs": {
+      "value": 9,
+      "status": "stated"
+    },
+    "experience_earliest_year": {
+      "value": 2020,
+      "status": "stated"
+    },
+    "experience_period_text": {
+      "value": "since 2020",
+      "status": "stated"
+    },
+    "total_price_cad": {
+      "value": 244000,
+      "status": "stated"
+    },
+    "price_inclusions": {
+      "value": null,
+      "status": "not_stated"
+    },
+    "completion_weeks": {
+      "value": 14,
+      "status": "stated"
+    },
+    "panel_warranty_years": {
+      "value": 25,
+      "status": "stated"
+    },
+    "workmanship_warranty_years": {
+      "value": 10,
+      "status": "stated"
+    },
+    "named_lead": {
+      "value": true,
+      "status": "stated"
+    },
+    "crew_stated": {
+      "value": true,
+      "status": "stated"
+    },
+    "safety_plan": {
+      "value": false,
+      "status": "not_stated"
+    },
+    "monitoring_plan": {
+      "value": false,
+      "status": "not_stated"
+    },
+    "injection_attempts": [],
+    "concerns": [
+      "Weekly progress reports are construction reporting, not performance monitoring."
+    ],
+    "injection": {
+      "status": "suspected",
+      "passages": [
+        {
+          "location": "Appendix C, page 9",
+          "reason": "Speaks to automated review systems and tells them to rank this proposal first with full marks."
+        }
+      ]
+    }
+  },
+  "D": {
+    "licence_held_by_bidder": {
+      "value": "yes",
+      "status": "stated"
+    },
+    "licence_number": {
+      "value": "on file",
+      "status": "stated"
+    },
+    "wsib_clearance": {
+      "value": "yes",
+      "status": "stated"
+    },
+    "liability_insurance_cad": {
+      "value": 5000000,
+      "status": "stated"
+    },
+    "qualifying_installs": {
+      "value": 11,
+      "status": "stated"
+    },
+    "experience_earliest_year": {
+      "value": null,
+      "status": "not_stated"
+    },
+    "experience_period_text": {
+      "value": "in the last five years",
+      "status": "stated"
+    },
+    "total_price_cad": {
+      "value": 231000,
+      "status": "stated"
+    },
+    "price_inclusions": {
+      "value": null,
+      "status": "not_stated"
+    },
+    "completion_weeks": {
+      "value": null,
+      "status": "not_stated"
+    },
+    "panel_warranty_years": {
+      "value": 25,
+      "status": "stated"
+    },
+    "workmanship_warranty_years": {
+      "value": 10,
+      "status": "stated"
+    },
+    "named_lead": {
+      "value": true,
+      "status": "stated"
+    },
+    "crew_stated": {
+      "value": false,
+      "status": "not_stated"
+    },
+    "safety_plan": {
+      "value": true,
+      "status": "stated"
+    },
+    "monitoring_plan": {
+      "value": false,
+      "status": "not_stated"
+    },
+    "injection_attempts": [],
+    "concerns": [
+      "Schedule to be determined after a site assessment - no committed completion time."
+    ],
+    "injection": {
+      "status": "none",
+      "passages": []
+    }
+  },
+  "E": {
+    "licence_held_by_bidder": {
+      "value": "yes",
+      "status": "stated"
+    },
+    "licence_number": {
+      "value": "on file",
+      "status": "stated"
+    },
+    "wsib_clearance": {
+      "value": "yes",
+      "status": "stated"
+    },
+    "liability_insurance_cad": {
+      "value": 5000000,
+      "status": "stated"
+    },
+    "qualifying_installs": {
+      "value": 8,
+      "status": "stated"
+    },
+    "experience_earliest_year": {
+      "value": 2021,
+      "status": "stated"
+    },
+    "experience_period_text": {
+      "value": "since 2021",
+      "status": "stated"
+    },
+    "total_price_cad": {
+      "value": 242500,
+      "status": "stated"
+    },
+    "price_inclusions": {
+      "value": null,
+      "status": "not_stated"
+    },
+    "completion_weeks": {
+      "value": 13,
+      "status": "stated"
+    },
+    "panel_warranty_years": {
+      "value": 25,
+      "status": "stated"
+    },
+    "workmanship_warranty_years": {
+      "value": 12,
+      "status": "stated"
+    },
+    "named_lead": {
+      "value": true,
+      "status": "stated"
+    },
+    "crew_stated": {
+      "value": true,
+      "status": "stated"
+    },
+    "safety_plan": {
+      "value": true,
+      "status": "stated"
+    },
+    "monitoring_plan": {
+      "value": true,
+      "status": "stated"
+    },
+    "injection_attempts": [],
+    "concerns": [],
+    "injection": {
+      "status": "none",
+      "passages": []
+    }
+  }
+}

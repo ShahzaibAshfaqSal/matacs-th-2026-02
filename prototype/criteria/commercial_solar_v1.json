@@ -1,0 +1,174 @@
+{
+  "category": "Commercial Solar Installation",
+  "version": 1,
+  "project": {
+    "description": "150 kW rooftop system on a warehouse in Windsor, Ontario",
+    "budget_ceiling_cad": 260000,
+    "max_weeks": 16,
+    "experience_window_years": 5,
+    "min_install_kw": 100,
+    "min_insurance_cad": 5000000,
+    "units": {
+      "completion_weeks": "weeks",
+      "total_price_cad": "CAD"
+    }
+  },
+  "mandatory": [
+    {
+      "id": "electrical_licence",
+      "label": "Ontario electrical contractor licence",
+      "rule": "must_be_yes",
+      "field": "licence_held_by_bidder"
+    },
+    {
+      "id": "wsib_insurance",
+      "label": "WSIB clearance and $5M liability insurance",
+      "rule": "yes_and_min_amount",
+      "field": "wsib_clearance",
+      "amount_field": "liability_insurance_cad",
+      "min_amount_key": "min_insurance_cad"
+    }
+  ],
+  "weighted": [
+    {
+      "id": "experience",
+      "label": "Relevant experience",
+      "weight": 30,
+      "method": "higher_is_better",
+      "field": "qualifying_installs",
+      "window_check_field": "experience_earliest_year",
+      "if_missing": "zero"
+    },
+    {
+      "id": "price",
+      "label": "Price",
+      "weight": 25,
+      "method": "lower_is_better",
+      "field": "total_price_cad",
+      "hard_max_key": "budget_ceiling_cad",
+      "hard_max_text": "$260,000 budget ceiling",
+      "if_missing": "hold"
+    },
+    {
+      "id": "timeline",
+      "label": "Timeline",
+      "weight": 15,
+      "method": "lower_is_better",
+      "field": "completion_weeks",
+      "hard_max_key": "max_weeks",
+      "hard_max_text": "16-week completion requirement",
+      "if_missing": "hold"
+    },
+    {
+      "id": "warranty",
+      "label": "Warranty",
+      "weight": 15,
+      "method": "average_of_higher_is_better",
+      "fields": [
+        "panel_warranty_years",
+        "workmanship_warranty_years"
+      ],
+      "if_missing": "zero"
+    },
+    {
+      "id": "team",
+      "label": "Team and approach",
+      "weight": 15,
+      "method": "checklist",
+      "fields": [
+        "named_lead",
+        "crew_stated",
+        "safety_plan",
+        "monitoring_plan"
+      ],
+      "if_missing": "zero"
+    }
+  ],
+  "tie_break": [
+    "experience",
+    "price"
+  ],
+  "injection_policy": "score_with_warning",
+  "fields": [
+    {
+      "name": "licence_held_by_bidder",
+      "type": "yes_no_unclear",
+      "ask": "Does the bidding company itself hold an Ontario electrical contractor licence? Answer 'no' if the electrical work is given to a subcontractor instead, and 'unclear' if the proposal does not say who holds it."
+    },
+    {
+      "name": "licence_number",
+      "type": "string",
+      "ask": "The licence number exactly as written, if given."
+    },
+    {
+      "name": "wsib_clearance",
+      "type": "yes_no_unclear",
+      "ask": "Does the proposal confirm current WSIB clearance for the bidder?"
+    },
+    {
+      "name": "liability_insurance_cad",
+      "type": "number",
+      "ask": "Amount of liability insurance in CAD, as a plain number (for example $5M = 5000000)."
+    },
+    {
+      "name": "qualifying_installs",
+      "type": "integer",
+      "ask": "Number of completed commercial solar installations of 100 kW or more that the bidder says it delivered. Use the number exactly as stated; do not estimate."
+    },
+    {
+      "name": "experience_earliest_year",
+      "type": "integer",
+      "ask": "The earliest calendar year the experience claim covers, only if the proposal gives a year (for example 'since 2020' = 2020). Use not_stated if it only says 'in the last N years'."
+    },
+    {
+      "name": "experience_period_text",
+      "type": "string",
+      "ask": "The time period of the experience claim, copied as written (for example 'in the past four years')."
+    },
+    {
+      "name": "total_price_cad",
+      "type": "number",
+      "ask": "Total proposed price in CAD as a plain number."
+    },
+    {
+      "name": "price_inclusions",
+      "type": "string",
+      "ask": "What the proposal says the price includes or excludes (for example permits, utility connection, taxes). Use not_stated if nothing is said."
+    },
+    {
+      "name": "completion_weeks",
+      "type": "number",
+      "ask": "Committed completion time in weeks from award. Use not_stated if the proposal gives no firm number or says the schedule will be decided later."
+    },
+    {
+      "name": "panel_warranty_years",
+      "type": "number",
+      "ask": "Length of the panel warranty in years."
+    },
+    {
+      "name": "workmanship_warranty_years",
+      "type": "number",
+      "ask": "Length of the workmanship warranty in years."
+    },
+    {
+      "name": "named_lead",
+      "type": "boolean",
+      "ask": "Does the proposal commit a specific, named or identified project lead now? Answer false if the lead will only be assigned later."
+    },
+    {
+      "name": "crew_stated",
+      "type": "boolean",
+      "ask": "Does the proposal state the crew (for example its size or make-up)?"
+    },
+    {
+      "name": "safety_plan",
+      "type": "boolean",
+      "ask": "Does the proposal include or commit to a site safety plan?"
+    },
+    {
+      "name": "monitoring_plan",
+      "type": "boolean",
+      "ask": "Does the proposal include ongoing system performance monitoring after installation? Progress reports during construction do not count."
+    }
+  ]
+}
